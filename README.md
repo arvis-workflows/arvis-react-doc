@@ -4,8 +4,9 @@ arvis workflow to access the React & React Native Documentation and community li
 
 ### Download
 
-Download the workflow from [GitHub](https://github.com/winkerVSbecks/arvis-react-launcher/releases/download/v1.0.0/react-launcher.arvisworkflow) or [Packal](http://www.packal.org/workflow/react-launcher).
-Requires Node.js 4+ and arvis Powerpack.
+```
+$ npm i -g arvis-react-doc
+```
 
 ### Usage
 
