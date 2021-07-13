@@ -1,0 +1,29 @@
+{
+  "name": "arvis-react-doc",
+  "description": "Arvis workflow to access the React & React Native Documentation and community links.",
+  "version": "0.0.3",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "toc.js",
+    "arvis-workflow.json",
+    "icon.png"
+  ],
+  "dependencies": {
+    "arvish": ">=0.5.7"
+  },
+  "scripts": {
+    "build": "sh build.sh",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+  },
+  "keywords": [
+    "arvis",
+    "react",
+    "react-native",
+    "launcher"
+  ],
+  "author": "Varun Vachhar",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "defaultIcon": "icon.png",
+  "category": "Productivity",
+  "creator": "Varun Vachhar",
+  "description": "Search for React & React Native API references",
+  "name": "arvis-react-doc",
+  "readme": "",
+  "version": "0.0.3",
+  "webAddress": "http://varun.ca",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "rl",
+      "title": "Search for React / React Native documentation",
+      "subtitle": "",
+      "scriptFilter": "node index.js \"{query}\"",
+      "runningSubtext": "searching...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "{query}"
+        }
+      ]
+    }
+  ]
+}
